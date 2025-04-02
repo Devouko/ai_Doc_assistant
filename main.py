@@ -1,4 +1,6 @@
 import streamlit as st
+import sys
+sys.path.append('.')  # Adds current directory to Python path
 from utils.auth import (
     firebase_signup,
     firebase_login,
